@@ -66,7 +66,7 @@ def generate_data(n):
         # Generate a random political affiliation
         # For simplicity, we use a list of possible values
         political_affiliation = random.choice(
-            ["LP", "PDP", "APC", "ANPP", "ACN", "APGA", "None"])
+            ["Labour group", "Conservative", "Liberal", "Independent", "None"])
         # Generate a random occupation
         # For simplicity, we use a list of possible values
         occupation = random.choice(["Teacher", "Doctor", "Lawyer", "Engineer", "Accountant",
